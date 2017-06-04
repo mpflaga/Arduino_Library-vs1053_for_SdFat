@@ -1,8 +1,12 @@
 Revision History
 ---------------
 
-## 1.02.15
-* implemented 1.0.1 into repo
+## 1.03.00
+* Initial commit, to support new library manager
+* ported from Sparkfun-MP3-Player-Shield-Arduino-Library
+* removed sdfat, works with sdfat version=1.0.1
+* changed from using sdfats depricated FreeRam() to using FreeStack()
+* fixed depricated sdfat.getFilename() with sdfat.getName()
 
 ## 1.02.14
 * implemented sdfatlib20131225 into repo
