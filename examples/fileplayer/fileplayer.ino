@@ -30,7 +30,7 @@
 #include <FreeStack.h>
 
 //and the MP3 Shield Library
-#include <vs1053.h>
+#include <vs1053_SdFat.h>
 
 // Below is not needed if interrupt driven. Safe to remove if not using.
 #if defined(USE_MP3_REFILL_MEANS) && USE_MP3_REFILL_MEANS == USE_MP3_Timer1

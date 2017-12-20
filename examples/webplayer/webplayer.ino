@@ -29,7 +29,7 @@
   #include <SimpleTimer.h>
 #endif
 
-#include <vs1053.h>
+#include <vs1053_SdFat.h>
 
 //create and name the library object
 vs1053 MP3player;
