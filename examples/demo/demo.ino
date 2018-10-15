@@ -62,6 +62,9 @@ vs1053 MP3player;
  * \see
  * \ref Error_Codes
  */
+void help();
+void parse_menu(byte key_command);
+
 void setup() {
 
   uint8_t result; //result code from some function as to be tested at later time.
