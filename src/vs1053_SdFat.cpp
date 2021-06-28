@@ -10,7 +10,11 @@
 // inslude the SPI library:
 #include "SPI.h"
 //avr pgmspace library for storing the LUT in program flash instead of sram
-#include <avr/pgmspace.h>
+#if (defined(__AVR__)) 
+#include <avr\pgmspace.h> 
+#else 
+#include <pgmspace.h> 
+#endif
 
 /**
  * \brief bitrate lookup table
