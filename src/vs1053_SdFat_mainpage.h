@@ -58,7 +58,7 @@ The Arduino vs1053 Library is a driver for VSLI's VS10xx, implemented as a slave
  
  \subsection Install_Manual Manual Method
  (advanced method)
- -# from https://github.com/mpflaga/vs1053_for_SdFat either:
+ -# from https://github.com/mpflaga/Arduino_Library-vs1053_for_SdFat either:
   -# clone the repo into your local Arduino Library directory
    -# 'C:/Users/{user name}/Documents/Arduino/libraries' folder
   -# download the ZIP file.
